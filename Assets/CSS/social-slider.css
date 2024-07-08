@@ -1,0 +1,294 @@
+ 
+  /* Here Help Slider */
+  
+  .social-slider-here-help-main .wrap {
+    position: relative;
+    z-index: 100;
+    width: 90%;
+    height: 100%;
+    /* padding: 0 60px; */
+    -webkit-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+  
+  }
+  
+  .social-slider-here-help-main .wrap:after {
+    content:'';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+  }
+  
+  .social-slider-here-help-main .slider {
+    position: relative;
+    z-index: 200;
+    padding: 0 0px;
+    margin: 5rem auto;
+    max-width: 800px;
+    width: 75%;
+  
+  }
+  
+  .social-slider-here-help-main .slick-arrow {
+    position: absolute;
+    top: 50%;
+    /* width: 40px; */
+    /* height: 50px; */
+    line-height: 50px;
+    margin-top: -25px;
+    border: none;
+    background: transparent;
+    color: #131313;
+    font-family: monospace;
+    font-size: 5rem;
+    z-index: 300;
+    outline: none;
+  }
+  
+  .social-slider-here-help-main .slick-prev {
+    left: 10px;
+    text-align: center;
+    color: var(--main-font-color);
+    font-size: 35px;
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px  white;
+  }
+  
+  .social-slider-here-help-main .slick-next {
+    right: -60px;
+    text-align: center;
+    color: var(--main-font-color);
+    font-size: 35px;
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px  white;
+  }
+  
+  
+  
+  .social-slider-here-help-main .item.slick-slide {
+    width: 400px;
+    transition: transform .4s;
+    position: relative; 
+    border-radius: 10px;
+  }
+  
+  
+  .social-slider-here-help-main .slick-slide:after {
+    content:' ';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: transform .4s;
+  
+  }
+  
+  .social-slider-here-help-main .item.slick-slide {
+    transform: scale(0.7)  translate(640px);
+    border-radius: 10px;
+  }
+  
+  .social-slider-here-help-main .item.slick-slide.slick-center + .slick-slide {
+    transform: scale(0.8) translate(-250px);
+    z-index: 10;
+    border-radius: 10px;
+  
+  }
+  
+  .social-slider-here-help-main .item.slick-slide.slick-center + .slick-slide + .item.slick-slide {
+    transform: scale(0.7)  translate(-640px);
+    z-index: 5;
+  
+  }
+  
+  .social-slider-here-help-main .item.slick-slide.slick-active {
+    transform: scale(0.8) translate(250px);
+  
+  
+  }
+  .social-slider-here-help-main .item.slick-slide.slick-center {
+    /* margin: 0 -10% ; */
+    transform: scale(1);
+    z-index: 30;
+    margin-left: 5%; 
+
+
+  }
+  
+  .social-slider-here-help-main .slick-center:after {
+    opacity: 0;
+  }
+  
+  
+  /* Custom CSS */
+  
+  .social-slider-here-help-main .item{
+    background-color: white;
+    height: 710px !important;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgb(131, 130, 130);
+    font-family: Bellota Text;
+    display: block;
+  }
+  .social-slider-here-help-main .social-slider-inner{
+    background-color: white;
+    border-radius: 10px;
+  }
+  .social-slider-here-help-main .social-slider-text{
+    padding: 40px;
+  }
+  .social-slider-here-help-main .social-slider-text h1{
+    color: var(--main-font-color) ;
+    font-size: var(--heading-2-600px);
+    text-transform: uppercase;
+  }
+  .social-slider-here-help-main .social-slider-text h2{
+    color: var(--main-font-color);
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .social-slider-here-help-main .social-slider-text p{
+    color: var(--para-font-color);
+    font-size: 20px;
+  }
+  .social-slider-text a{
+    font-size: 20px;
+    color: var(--main-font-color);
+    text-decoration: none;
+
+  }
+  
+  .social-slider-here-help-main .social-slider-img img{
+    width: 100%;
+    height: 30%;
+    display: block !important;
+   }
+
+   .social-slider-here-help-main{
+    margin-bottom: -50%;
+   }
+   @media only screen and (max-width: 1440px){
+    
+  .social-slider-here-help-main .slick-prev {
+    left: -20px;
+    text-align: center;
+    color: var(--main-font-color);
+    font-size: 35px;
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px  white;
+  }
+  
+  .social-slider-here-help-main .slick-next {
+    right: -60px;
+    text-align: center;
+    color: var(--main-font-color);
+    font-size: 35px;
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px  white;
+  }
+
+   }
+   @media only screen and  (max-width: 1024px){
+    .social-slider-here-help-main .slick-prev {
+        left: -55px;
+      }
+      
+      .social-slider-here-help-main .slick-next {
+        right: -55px;
+      }
+      .social-slider-here-help-main .item{
+        height: 690px !important;
+      }
+      .social-slider-here-help-main .item.slick-slide {
+        width: 350px;
+        transition: transform .4s;
+        position: relative; 
+        border-radius: 10px;
+      }
+   }
+
+   @media only screen and  (max-width: 768px){
+    .social-slider-here-help-main .slick-prev {
+        left: 20px;
+      }
+      
+      .social-slider-here-help-main .slick-next {
+        right: -60px;
+      }
+   }
+
+   
+   @media only screen and  (max-width: 600px){
+    .social-slider-here-help-main .slick-prev {
+        left: 10px;
+        width: 48px;
+        height: 48px;
+      }
+      
+      .social-slider-here-help-main .slick-next {
+        right: 10px;
+        width: 48px;
+        height: 48px;
+      }
+      .social-slider-here-help-main .wrap {
+        width: 90%;
+      }
+      .social-slider-here-help-main .slider {
+ 
+        width: 100%;
+      
+      }
+      .social-slider-here-help-main .wrap {
+        width: 100%;
+      }
+      .social-slider-here-help-main .item.slick-slide {
+        width: 250px;
+      }
+      
+      .social-slider-here-help-main .social-slider-text{
+        padding: 40px;
+
+      }
+      .social-slider-here-help-main .social-slider-text h1{
+        font-size: 35px;
+     
+      }
+      .social-slider-here-help-main .social-slider-text h2{
+        color: var(--main-font-color);
+        font-size: 26px;
+        text-transform: uppercase;
+      }
+      .social-slider-here-help-main .social-slider-text p{
+        color: var(--para-font-color);
+        font-size: 18px;
+      }
+      .social-slider-text a{
+        font-size: 18px;
+      }
+      .social-slider-here-help-main .item{
+        height: 620px !important;
+      }
+   }
+    
+   @media only screen and  (max-width: 600px){
+
+   }
